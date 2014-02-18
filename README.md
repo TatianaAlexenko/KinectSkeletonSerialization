@@ -2,6 +2,7 @@ KinectSkeletonSerialization
 ===========================
 
 Serialize and Deserialize a Microsoft Kinect Skeleton to JSON string and back. 
+Code is in C# and meant to be used with Microsoft Kinect SDK. 
 
 I needed to serialize AND deserealize Kinect Skeletons to some string Format. 
 I found this https://github.com/dodilp/kinectcouchbase/blob/master/Kinect.Server/SkeletonSerializer.cs, but it didn't have deseralization back to skeleton. 
